@@ -1,0 +1,17 @@
+// Define the mixin
+@mixin button-styles {
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  // Apply the mixin to the .primary-button class and customize it
+  .primary-button {
+    @include button-styles;
+  
+    // Customize the .primary-button styles
+    background-color: #007bff;
+    color: #fff;
+  }
